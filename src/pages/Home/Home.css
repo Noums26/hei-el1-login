@@ -1,0 +1,53 @@
+.home__container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/img/421980.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home__overflow {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__modal {
+    width: 60%;
+    height: 70vh;
+    /* height: fit-content; */
+    /* background-color: rgb(255, 253, 219); */
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 40px #000;
+    display: flex;
+    flex-direction: row;
+}
+
+.home__form {
+    padding: 1rem;
+    color: #fff;
+    width: 100%;
+}
+
+.home__form h2 {
+    text-transform: capitalize;
+}
+
+.home__form button{
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
